@@ -1,0 +1,9 @@
+CRITICAL - 2023-04-24 23:17:46 --> syntax error, unexpected double-quoted string "", expecting ")"
+in APPPATH\Views\miproyecto.php on line 16.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('miproyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('miproyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->miproyecto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

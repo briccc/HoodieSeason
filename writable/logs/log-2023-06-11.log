@@ -1,0 +1,775 @@
+INFO - 2023-06-11 01:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 01:55:02 --> syntax error, unexpected token "?"
+in APPPATH\Views\iniciosesion.php on line 4.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inicioSesion', [], true)
+ 3 APPPATH\Controllers\UsuarioController.php(87): view('inicioSesion')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->inicio_sesion()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 01:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 02:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 03:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 04:38:40 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\VentaController.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Controllers\\VentaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VentaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VentaController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\VentaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:40:29 --> Class "App\Controllers\VentaModel" not found
+in APPPATH\Controllers\VentaController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:42:39 --> Unmatched '}'
+in APPPATH\Models\VentaModel.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Models\\VentaModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\VentaModel')
+ 3 APPPATH\Controllers\VentaController.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\VentaModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:42:48 --> Class "App\Controllers\DetalleVentaModel" not found
+in APPPATH\Controllers\VentaController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:45:26 --> Class "App\Controllers\DetalleVentaModel" not found
+in APPPATH\Controllers\VentaController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:45:49 --> Class "App\Models\DetalleVentaModel" not found
+in APPPATH\Controllers\VentaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 04:45:54 --> Class "App\Models\DetalleVentaModel" not found
+in APPPATH\Controllers\VentaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 04:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 04:47:20 --> Undefined variable $productos
+in APPPATH\Views\back\listarVentas.php on line 15.
+ 1 APPPATH\Views\back\listarVentas.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\listarVentas.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\listarVentas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarVentas', [], true)
+ 5 APPPATH\Controllers\VentaController.php(17): view('back/listarVentas')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 04:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 04:49:17 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\back\listarVentas.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarVentas', [], true)
+ 3 APPPATH\Controllers\VentaController.php(17): view('back/listarVentas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 04:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-11 04:52:21 --> Unclosed '{' on line 13
+in APPPATH\Views\back\listarVentas.php on line 24.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarVentas', [], true)
+ 3 APPPATH\Controllers\VentaController.php(17): view('back/listarVentas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VentaController->listar_ventas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 04:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:04 --> Cart Class Initialized
+INFO - 2023-06-11 04:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:04 --> Cart Class Initialized
+INFO - 2023-06-11 04:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 04:55:17 --> Cart Class Initialized
+INFO - 2023-06-11 16:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:23:11 --> Cart Class Initialized
+INFO - 2023-06-11 16:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:37 --> Cart Class Initialized
+INFO - 2023-06-11 16:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:37 --> Cart Class Initialized
+INFO - 2023-06-11 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:41 --> Cart Class Initialized
+INFO - 2023-06-11 16:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:42 --> Cart Class Initialized
+INFO - 2023-06-11 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:24:48 --> Cart Class Initialized
+INFO - 2023-06-11 16:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:25:16 --> Cart Class Initialized
+CRITICAL - 2023-06-11 16:25:16 --> Class "App\Controllers\VentaModel" not found
+in APPPATH\Controllers\CarritoController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:25:43 --> Cart Class Initialized
+ERROR - 2023-06-11 16:25:44 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 16:25:44 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (0, \'1\', 1, 6000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (0, \'1\', 1, 6000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (0, \'1\', 1, 6000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:25:50 --> Cart Class Initialized
+INFO - 2023-06-11 16:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:25:52 --> Cart Class Initialized
+ERROR - 2023-06-11 16:25:52 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 16:25:52 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`venta_fecha`) VALUES (:venta_fecha:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:25:59 --> Cart Class Initialized
+ERROR - 2023-06-11 16:25:59 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 16:25:59 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`venta_fecha`) VALUES (:venta_fecha:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:26:46 --> Cart Class Initialized
+INFO - 2023-06-11 16:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:26:48 --> Cart Class Initialized
+ERROR - 2023-06-11 16:26:48 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-11 16:26:48 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `id` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `id` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:27:42 --> Cart Class Initialized
+INFO - 2023-06-11 16:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:27:44 --> Cart Class Initialized
+ERROR - 2023-06-11 16:27:44 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 16:27:44 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`venta_fecha`) VALUES (\'2023-06-11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`venta_fecha`) VALUES (:venta_fecha:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 16:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:47:07 --> Cart Class Initialized
+INFO - 2023-06-11 16:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 16:47:09 --> Cart Class Initialized
+ERROR - 2023-06-11 16:47:09 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 16:47:09 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (1, \'1\', 1, 6000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (1, \'1\', 1, 6000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (1, \'1\', 1, 6000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 17:03:47 --> Cart Class Initialized
+INFO - 2023-06-11 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 17:03:50 --> Cart Class Initialized
+ERROR - 2023-06-11 17:03:50 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 17:03:50 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (2, \'1\', 1, 6000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (2, \'1\', 1, 6000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (2, \'1\', 1, 6000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 19:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:42:43 --> Cart Class Initialized
+INFO - 2023-06-11 19:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:42:44 --> Cart Class Initialized
+INFO - 2023-06-11 19:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:26 --> Cart Class Initialized
+INFO - 2023-06-11 19:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:26 --> Cart Class Initialized
+INFO - 2023-06-11 19:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:43:32 --> Cart Class Initialized
+ERROR - 2023-06-11 19:43:32 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 19:43:32 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (5, \'3\', 1, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (5, \'3\', 1, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (5, \'3\', 1, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 19:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 19:44:10 --> Cart Class Initialized
+INFO - 2023-06-11 19:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:05:54 --> Cart Class Initialized
+INFO - 2023-06-11 21:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:05:54 --> Cart Class Initialized
+INFO - 2023-06-11 21:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:05:59 --> Cart Class Initialized
+ERROR - 2023-06-11 21:05:59 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 21:05:59 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (6, \'3\', 2, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (6, \'3\', 2, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (6, \'3\', 2, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:06:29 --> Cart Class Initialized
+INFO - 2023-06-11 21:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:06:31 --> Cart Class Initialized
+ERROR - 2023-06-11 21:06:31 --> mysqli_sql_exception: Unknown column 'producto' in 'where clause' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-11 21:06:31 --> Unknown column 'producto' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `producto` = \'3\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `producto` = \'3\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `producto` = \'3\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `producto` = :producto:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:06:50 --> Cart Class Initialized
+ERROR - 2023-06-11 21:06:51 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 21:06:51 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (7, \'3\', 2, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (7, \'3\', 2, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (7, \'3\', 2, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:07:08 --> Cart Class Initialized
+ERROR - 2023-06-11 21:07:09 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 21:07:09 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (8, \'3\', 2, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (8, \'3\', 2, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (8, \'3\', 2, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:07:12 --> Cart Class Initialized
+INFO - 2023-06-11 21:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:07:14 --> Cart Class Initialized
+ERROR - 2023-06-11 21:07:14 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 21:07:14 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (9, \'3\', 2, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (9, \'3\', 2, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (9, \'3\', 2, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:12:30 --> Cart Class Initialized
+INFO - 2023-06-11 21:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:12:34 --> Cart Class Initialized
+ERROR - 2023-06-11 21:12:34 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-11 21:12:34 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `id` = \'3\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `id` = \'3\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `id` = \'3\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\CarritoController.php(55): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:15:42 --> Cart Class Initialized
+ERROR - 2023-06-11 21:15:42 --> mysqli_sql_exception: Unknown column 'id_producto' in 'field list' in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\CarritoController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-11 21:15:42 --> Unknown column 'id_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (10, \'3\', 2, 5000)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (10, \'3\', 2, 5000)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (10, \'3\', 2, 5000)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `venta` (`id_venta`, `id_producto`, `detalle_cantidad`, `detalle_precio`) VALUES (:id_venta:, :id_producto:, :detalle_cantidad:, :detalle_precio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(80): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->guardar_venta()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 21:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 21:34:28 --> Cart Class Initialized
+INFO - 2023-06-11 22:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:20:42 --> Cart Class Initialized
+INFO - 2023-06-11 22:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:16 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:21 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:21 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:29 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:29 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:26:32 --> Cart Class Initialized
+INFO - 2023-06-11 22:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:08 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:08 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:11 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:40 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:40 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:38:42 --> Cart Class Initialized
+INFO - 2023-06-11 22:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:45 --> Cart Class Initialized
+INFO - 2023-06-11 22:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:52 --> Cart Class Initialized
+INFO - 2023-06-11 22:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-11 22:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

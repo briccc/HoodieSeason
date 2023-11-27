@@ -1,0 +1,338 @@
+INFO - 2023-06-05 02:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 13:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 14:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 16:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:05:14 --> Class "App\Controllers\CategoriasModel" not found
+in APPPATH\Controllers\AdminController.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:05:32 --> Invalid file: "back/editarLibro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/editarLibro.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarLibro', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarLibro')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:05:51 --> syntax error, unexpected identifier "titulo", expecting "]"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:06:32 --> Unclosed '(' on line 33
+in APPPATH\Views\back\editarProducto.php on line 36.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:06:56 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:32:29 --> Undefined array key "id_producto"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:36:49 --> Array to string conversion
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:38:33 --> Undefined constant "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 4 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:38:52 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:39:24 --> Undefined array key "producto_titulo"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_titulo"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:39:50 --> Undefined array key "productos.producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 5.
+ 1 APPPATH\Views\back\editarProducto.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos.producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:41:03 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:41:47 --> syntax error, unexpected identifier "producto_nombre", expecting "]"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:42:15 --> syntax error, unexpected identifier "producto_nombre", expecting "]"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:42:29 --> syntax error, unexpected identifier "producto_stock", expecting "]"
+in APPPATH\Views\back\editarProducto.php on line 11.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:42:40 --> Undefined array key "producto_imagen"
+in APPPATH\Views\back\editarProducto.php on line 16.
+ 1 APPPATH\Views\back\editarProducto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_imagen"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 18:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 18:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 18:51:38 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 19:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 19:44:03 --> syntax error, unexpected token "if"
+in APPPATH\Views\back\listarProductos.php on line 1.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(108): view('back/listarProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionar_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 19:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 19:44:40 --> syntax error, unexpected token "<"
+in APPPATH\Views\back\listarProductos.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(108): view('back/listarProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionar_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 19:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 19:45:25 --> syntax error, unexpected token "?"
+in APPPATH\Views\back\listarProductos.php on line 1.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(108): view('back/listarProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionar_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 19:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 19:45:35 --> syntax error, unexpected token "<"
+in APPPATH\Views\back\listarProductos.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/listarProductos', [], true)
+ 3 APPPATH\Controllers\AdminController.php(108): view('back/listarProductos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->gestionar_productos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 19:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 19:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 19:45:55 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 20:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 20:00:24 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 20:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 20:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 20:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 20:00:34 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 20:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 20:01:03 --> Undefined variable $producto_model
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto_model', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 20:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 20:01:13 --> Undefined array key "producto_nombre"
+in APPPATH\Views\back\editarProducto.php on line 6.
+ 1 APPPATH\Views\back\editarProducto.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\miproyecto\\app\\Views\\back\\editarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('back/editarProducto', [], true)
+ 5 APPPATH\Controllers\AdminController.php(119): view('back/editarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->editar_producto('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 21:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

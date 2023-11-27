@@ -1,0 +1,244 @@
+CRITICAL - 2023-05-19 17:21:50 --> syntax error, unexpected token ","
+in APPPATH\Controllers\UsuarioController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Controllers\\UsuarioController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UsuarioController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UsuarioController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UsuarioController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:22:28 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\UsuarioController.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Controllers\\UsuarioController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UsuarioController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UsuarioController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UsuarioController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:23:57 --> syntax error, unexpected variable "$userConsulta"
+in APPPATH\Controllers\UsuarioController.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Controllers\\UsuarioController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UsuarioController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UsuarioController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UsuarioController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:24:26 --> syntax error, unexpected identifier "protationMessages", expecting "function" or "const"
+in APPPATH\Models\ConsultaModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\miproyecto\\app\\Models\\ConsultaModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ConsultaModel')
+ 3 APPPATH\Controllers\UsuarioController.php(31): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ConsultaModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_consulta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 17:25:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_consulta()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#3 C:\xampp\htdocs\miproyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\miproyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\miproyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(32): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_consulta()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-19 17:25:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mensajes` (`nombre`, `mail`, `asunto`, `consulta`) VALUES (:nombre:, :mail:, :asunto:, :consulta:)', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\UsuarioController.php(32): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_consulta()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:28:07 --> "valid_mail" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_mail')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 3 APPPATH\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:31:10 --> "valid_mail" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_mail')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 3 APPPATH\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 17:33:30 --> "valid_mail" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_mail')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 3 APPPATH\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 17:34:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#6 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-19 17:34:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuario_mail` = :usuario_mail:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela.diaz.01.06@gmail.com', 'usuario_mail', [...], null, 'correo')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 6 APPPATH\Controllers\UsuarioController.php(77): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 17:50:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#6 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-19 17:50:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuario_mail` = :usuario_mail:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela.diaz.01.06@gmail.com', 'usuario_mail', [...], null, 'correo')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 6 APPPATH\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-19 17:54:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#6 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#7 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\miproyecto\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\miproyecto\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\miproyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\miproyecto\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela....', 'usuario_mail', Array, NULL, 'correo')
+#5 C:\xampp\htdocs\miproyecto\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela....', Array, Array)
+#6 C:\xampp\htdocs\miproyecto\app\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+#8 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#9 C:\xampp\htdocs\miproyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\miproyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-19 17:54:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuario_mail` = :usuario_mail:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('bricia.candela.diaz.01.06@gmail.com', 'usuario_mail', [...], null, 'correo')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('correo', 'correo', 'bricia.candela.diaz.01.06@gmail.com', [...], [...])
+ 6 APPPATH\Controllers\UsuarioController.php(78): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UsuarioController->registrar_usuario()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
