@@ -189,6 +189,7 @@ nav ul li:hover {
     text-align: justify;
 }
 
+
 .img-quienes-somos{
     width: 100%;
     display: block;
@@ -196,9 +197,9 @@ nav ul li:hover {
     object-fit: cover;
 }
 
+
 .img-container-products img{
     width: 100%;
-    display: block;
     height: 100%;
     object-fit: cover;
 }
@@ -208,10 +209,3 @@ nav ul li:hover {
     height:300px;
     text-align: center;
 } 
-.cards-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-    padding: 1rem;
-    place-content: center;
-}

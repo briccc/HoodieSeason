@@ -1,5 +1,5 @@
 
-<div class="container terminos">
+<div class="container terminos text-justify ">
     <h2>1. Términos y condiciones de uso de la página web</h2>
     <p>Bienvenido a nuestra página web de venta de buzos. Al acceder y utilizar nuestro sitio web, aceptas estar sujeto a los siguientes términos y condiciones de uso. Si no estás de acuerdo con estos términos, te recomendamos que no utilices nuestra página web.</p>
     <hr>

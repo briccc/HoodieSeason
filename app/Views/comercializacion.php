@@ -1,6 +1,6 @@
 
 
-<div class="container terminos">
+<div class="container terminos text-justify ">
     <h2>Opciones de pago</h2>
 
     <p>HoodieSeason pone a tu disposición los sigueintes métodos de pago, elegí el que mejor se adapte a tus necesidades e iniciá a cambiar tu vida a través del deporte. </p>
