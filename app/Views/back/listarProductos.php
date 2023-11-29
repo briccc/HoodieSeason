@@ -14,9 +14,12 @@
         </div>
         <?php endif; ?>
 
-<h1 class="text-center mt-4">Listado de productos</h1>
+<h1 class="text-center mt-5 mb-3">Listado de productos</h1>
 
-    <table id="mytable" class="mt-5 table table-bordered table-striped table-hover">
+<a href="<?php echo base_url('agregarProducto');?>">
+    <button class="btn btn-dark mt-3">Agregar Producto</button>
+</a>
+    <table id="mytable" class="mt-2 table table-bordered table-striped table-hover">
         <thead>
             <th>Título</th>
             <th>Color</th>
@@ -31,7 +34,7 @@
             <?php foreach ($producto as $row){ ?>
             <tr>
                 <td> <?php echo $row['producto_nombre'];?></td>
-                <td> <?php echo $row['producto_color'];?></td>
+                <td> <?php echo $row['descripcion'];?></td>
                 <td> <?php echo $row['producto_stock'];?></td>
                 <td><?php echo $row['categoria_descrip'];?></td>
 

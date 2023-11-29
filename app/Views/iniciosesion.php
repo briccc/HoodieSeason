@@ -4,7 +4,7 @@
         </div>
         <?php endif; ?>
 
-<div class="container align-center">
+<div class="container vh-100 d-flex flex-column justify-content-center align-center">
         <h1 class="mt-4 mb-4 text-center">Iniciar Sesión</h1>
         <?php echo form_open ('iniciarSesion');?>
 
@@ -13,7 +13,7 @@
 
                     <div class="col-md-10 mb-3">
 
-                    <label for="correo" class="form-label">Correo:</label>
+                    <label for="correo" class="form-label">Correo</label>
                     <?php
                     
                     $data = [
@@ -23,12 +23,12 @@
                         'placeholder'      => 'Ingrese correo electrónico',
                         ];
                     echo form_input($data);?>
-                    <p class="is-danger"><?=session('errors.correo'); ?></p>
+                    <p class="error_message"><?=session('errors.correo'); ?></p>
 
                     </div>
 
                     <div class="col-md-10  mb-3">
-                        <label for="pass" class="form-label">Contraseña:</label>
+                        <label for="pass" class="form-label">Contraseña</label>
                         
                         <?php
                         $data = [
@@ -39,7 +39,7 @@
 
                             ];
                         echo form_password($data);?>
-                       <p class="is-danger"><?=session('errors.pass') ?></p>
+                       <p class="error_message"><?=session('errors.pass') ?></p>
                     </div>
 
                     <div class="text-center">
@@ -48,7 +48,7 @@
 
                     <div class="d-flex justify-content-center">
 
-                    <button type="submit" class="mi-boton mt-1">Ingresar</button>
+                    <button type="submit" class="mi-boton m-0 p-2 px-4">Ingresar</button>
 
                     </div>
 

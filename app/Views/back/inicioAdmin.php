@@ -1,5 +1,5 @@
-<div class="container mb-3 text-center">
-        <h1 class="mt-4 mb-5">Administra tu tienda</h1>
+<div class="container text-center vh-100 mb-4">
+        <h1 class="mt-5 mb-5">Administra tu tienda</h1>
         
     
         <div class="options row">

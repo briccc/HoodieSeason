@@ -1,7 +1,7 @@
 
 
-<div class="container">
-<h1 class="text-center mt-4">Listado de Usuarios</h1>
+<div class="container vh-100">
+<h1 class="text-center mt-5">Listado de Usuarios</h1>
 
     <table id="mytable" class="mt-5 table table-bordered table-striped table-hover">
         <thead>

@@ -21,7 +21,9 @@ body {
 }
 
 nav ul li:hover {
-    background-color: #575454;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 19%, rgba(14,13,13,1) 62%, rgba(14,13,13,1) 93%);
+
   }
 
 
@@ -57,6 +59,7 @@ nav ul li:hover {
 
 .presentacion p {
     font-size: large;
+    text-align: justify;
 }
 
 
@@ -175,3 +178,40 @@ nav ul li:hover {
     margin-bottom: 3%;
 }
 
+.error_message{
+    color: rgb(250, 55, 91);
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.img-quienes-somos{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-container-products img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-container-products {
+    width: 100%;
+    height:300px;
+    text-align: center;
+} 
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+    place-content: center;
+}

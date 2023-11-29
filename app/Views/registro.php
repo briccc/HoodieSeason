@@ -25,7 +25,7 @@
             ];
             echo form_input($data);
             ?>
-            <p class="is-danger"><?=session('errors.nombre')?></p>
+            <p class="error_message"><?=session('errors.nombre')?></p>
         </div>
 
         <div class="col-md-10 mb-3">
@@ -41,7 +41,7 @@
             echo form_input($data);
             ?>
 
-            <p class="is-danger"><?=session('errors.apellido')?></p>
+            <p class="error_message"><?=session('errors.apellido')?></p>
         </div>
 
         <div class="col-md-10 mb-3">
@@ -56,7 +56,7 @@
             ];
             echo form_input($data);
             ?>
-            <p class="is-danger"><?=session('errors.correo')?></p>
+            <p class="error_message"><?=session('errors.correo')?></p>
         </div>
 
         
@@ -73,7 +73,7 @@
             ];
             echo form_password($data);
             ?>
-            <p class="is-danger"><?=session('errors.pass')?></p>
+            <p class="error_message"><?=session('errors.pass')?></p>
         </div>
 
         <div class="col-md-10 mb-3">
@@ -88,7 +88,7 @@
             ];
             echo form_password($data);
             ?>
-            <p class="is-danger"><?=session('errors.repass')?></p>
+            <p class="error_message"><?=session('errors.repass')?></p>
         </div>
 
         <div class="d-flex justify-content-center">

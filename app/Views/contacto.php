@@ -6,14 +6,14 @@
         } ?>
 
 
-<div class="container">
-        <h1 class="mt-4 mb-4 text-center">Formulario de contacto</h1>
-        
-        <?php echo form_open ('registrarConsulta');?>
+<div class="container  ">
+    <h1 class="mt-5 mb-4 text-center">Formulario de contacto</h1>
 
-            <div class="row">
-                <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre:</label>
+    <?php echo form_open ('registrarConsulta');?>
+
+    <div class="d-flex flex-column justify-content-center">
+        <div class="mb-3 mt-3">
+            <label for="nombre" class="form-label">Nombre</label>
             <?php
             
             $data = [
@@ -25,12 +25,14 @@
             ];
             echo form_input($data);
             ?>
-            <p class="is-danger"><?=session('errors.nombre')?></p>
+            <p class="error_message">
+                <?=session('errors.nombre')?>
+            </p>
         </div>
 
 
         <div class=" mb-3">
-            <label for="correo" class="form-label">Correo electrónico:</label>
+            <label for="correo" class="form-label">Correo electrónico</label>
             <?php
             $data = [
                 'name'        => 'correo',
@@ -41,11 +43,13 @@
             ];
             echo form_input($data);
             ?>
-            <p class="is-danger"><?=session('errors.correo')?></p>
+            <p class="error_message">
+                <?=session('errors.correo')?>
+            </p>
         </div>
 
         <div class="mb-3">
-            <label for="motivo" class="form-label">Asunto:</label>
+            <label for="motivo" class="form-label">Asunto</label>
             <?php
             $data = [
                 'name'        => 'motivo',
@@ -56,11 +60,13 @@
             ];
             echo form_input($data);
             ?>
-            <p class="is-danger"><?=session('errors.motivo')?></p>
+            <p class="error_message">
+                <?=session('errors.motivo')?>
+            </p>
         </div>
 
         <div class="mb-3">
-            <label for="consulta" class="form-label">Mensaje:</label>
+            <label for="consulta" class="form-label">Mensaje</label>
             <?php
             $data = [
                 'name'        => 'consulta',
@@ -71,15 +77,19 @@
             ];
             echo form_textarea($data);
             ?>
-            <p class="is-danger"><?=session('errors.consulta')?></p>
+            <p class="error_message">
+                <?=session('errors.consulta')?>
+            </p>
         </div>
-        
 
-            <button type="submit" class="mi-boton mt-1 ">Enviar</button>
-            <?php echo form_close(); ?>
 
-            </div>
-        <h1 class="mt-3">Ubicación</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.6654966712345!2d-58.828426425429484!3d-27.47967141712955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b631f18ca45%3A0xcc70d6478b75de14!2sGral.%20Paz%202080%2C%20W3402%20Corrientes!5e0!3m2!1ses!2sar!4v1682395151245!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 mt-3"></iframe>
- </div>
+        <button type="submit" class="mi-boton mx-auto p-2 px-4 mt-1 text-center">Enviar</button>
+        <?php echo form_close(); ?>
+
+    </div>
+    <h1 class="mt-3 ">Ubicación</h1>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.6654966712345!2d-58.828426425429484!3d-27.47967141712955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b631f18ca45%3A0xcc70d6478b75de14!2sGral.%20Paz%202080%2C%20W3402%20Corrientes!5e0!3m2!1ses!2sar!4v1682395151245!5m2!1ses!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="w-100 mb-5"></iframe>
 </div>

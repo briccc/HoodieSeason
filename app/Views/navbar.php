@@ -35,7 +35,7 @@
         <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verCarrito'); ?>"><i class="bi-solid bi bi-cart"></i></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page"><i class="bi bi-person-check"></i><?php echo session('nombre');?></a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page"><i class="bi bi-person-check"></i> <?php echo session('nombre');?></a>
         </li>
         <li class="nav-item">
         <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('cerrarSesion'); ?>"><i class="bi bi-box-arrow-right"></i></a>
@@ -43,7 +43,7 @@
 
         <?php } else { ?>
       <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('iniciarSesion'); ?>"><i class="bi bi-person"></i> </i></a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('iniciarSesion'); ?>"><i class="bi bi-person"></i></a>
         </li>
 
         <?php } ?>

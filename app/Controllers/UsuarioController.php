@@ -194,6 +194,7 @@ class UsuarioController extends BaseController
                     'perfil' => $user ['perfil_id'],
                     'login' =>TRUE
                 ];
+                
 
                 $session-> set ($data);
 

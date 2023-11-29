@@ -4,6 +4,7 @@ namespace App\Controllers;
 use Config\Services;
 use App\Models\ProductosModel;
 use App\Models\CategoriaModel;
+use App\Models\ColorModel;
 
 class AdminController extends BaseController
 {
@@ -17,6 +18,8 @@ class AdminController extends BaseController
     public function agregar_producto(){
         $categoria = new CategoriaModel();
         $data ['categorias'] = $categoria->findAll();
+        $color = new ColorModel();
+        $data ['color'] = $color->findAll();
         $data['title']= 'Agregar producto';
 
         return view('header', $data).view('back/navbarAdmin').view('back/agregarProducto').view('footer');
@@ -35,9 +38,9 @@ class AdminController extends BaseController
 
         $validation->setRules([
             'titulo' => 'required',
-            'color' => 'required',
             'descripcion' => 'required',
-            'categoria' => 'is_not_unique[categorias.id_categoria]', 
+            'categoria' => 'required', 
+            'color' => 'required' ,
             'stock' => 'required|integer|greater_than_equal_to[0]',
             'precio' => 'required|numeric',
             'imagen' => 'uploaded[imagen]|max_size[imagen,4095]|is_image[imagen]'
@@ -47,12 +50,17 @@ class AdminController extends BaseController
         ],
         'color' => [
             'required' => 'El campo color es obligatorio',
+            'is_not_unique' => 'Color no registrado'
+
         ],
         'descripcion' => [
             'required' => 'El campo descripcion es obligatorio',
         ],
             'categoria' => [
-                'is_not_unique' => 'Producto ya registrado'
+                'required' => 'El campo categoria es obligatorio',
+            ],
+            'color' => [
+                'required' => 'El campo color es obligatorio'
             ],
             'stock' => [
                 'required' => 'El campo stock es obligatorio',
@@ -98,39 +106,36 @@ class AdminController extends BaseController
     }
 
     public function listar_productos() {
-
         $categoriaId = $this->request->getGet('categoria');
-        if ($categoriaId == 0 || $categoriaId == null)
-        {
-             $producto_model = new ProductosModel();
-        $data['producto'] = $producto_model
-        ->where('producto_estado', 1)
-        ->where('producto_stock >', 0)
-        ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
-        ->findAll();
-
-        $categoria = new CategoriaModel();
-        $data['categoria'] = $categoria->findAll();
-        $data['title'] = 'Listar productos';
-            
-        return view('header', $data) . view('navbar') . view('catalogoProductos') . view('footer');
+        $colorId = $this->request->getGet('color');
+        $producto_model = new ProductosModel();
+    
+        // filtro por categoría 
+        if ($categoriaId !== null && $categoriaId !== '') {
+            $producto_model->where('producto_categoria', $categoriaId);
         }
 
-        $producto_model = new ProductosModel();
+        // filtro por color 
+        if ($colorId !== null && $colorId !== '') {
+            $producto_model->where('producto_color', $colorId);
+        }    
+    
+
         $data['producto'] = $producto_model
-        ->where('producto_estado', 1)
-        ->where('producto_stock >', 0)
-        ->where('producto_categoria', $categoriaId)
-        ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
-        ->findAll();
-       
+            ->where('producto_estado', 1)
+            ->where('producto_stock >', 0)
+            ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
+            ->findAll();
+    
         $categoria = new CategoriaModel();
         $data['categoria'] = $categoria->findAll();
+        $color = new ColorModel();
+        $data ['color'] = $color->findAll();
         $data['title'] = 'Listar productos';
-            
+    
         return view('header', $data) . view('navbar') . view('catalogoProductos') . view('footer');
- 
     }
+    
     
 
 
@@ -139,7 +144,8 @@ class AdminController extends BaseController
         $producto_model = new ProductosModel();
         $categoria = new CategoriaModel();
         $data['categorias']= $categoria->findAll();
-        $data['producto']= $producto_model->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();
+        $data['producto']= $producto_model->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
+        ->join('color', 'color.id_color = productos.producto_color')->findAll();
         $data['title']='Listar productos';
 
         return view('header', $data).view('back/navbarAdmin').view('back/listarProductos').view('footer');
@@ -150,8 +156,9 @@ class AdminController extends BaseController
         $producto_model= new ProductosModel();
         $categoria = new CategoriaModel();
         $data['categorias']= $categoria->findAll();
+        $color = new ColorModel();
+        $data ['color'] = $color->findAll();
         $data['producto']= $producto_model->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();
-        
         $data['producto']= $producto_model->where('id_producto', $id)->first();
         $data['title']='Edición producto';
 
@@ -161,12 +168,14 @@ class AdminController extends BaseController
     public function editar_producto_validacion() {
         $CategoriasModel = new CategoriaModel();
         $ProductosModel = new ProductosModel();
+        $ColorModel = new ColorModel();
         
         $validation = \Config\Services::validation();
         $request = \Config\Services::request();
 
 
         $data['categorias']= $CategoriasModel->findAll();
+        $data['color']= $ColorModel->findAll();
 
         $id = $this->request->getPost('id_producto');
 
@@ -195,6 +204,8 @@ class AdminController extends BaseController
 
         $validation->setRules([
             'titulo' => 'required',
+            'color' => 'required',
+            'categoria' => 'required',
             'descripcion' => 'required|alpha_space|max_length[100]',
             'stock' => 'required|is_natural',
             'precio' => 'required|numeric'
@@ -202,6 +213,12 @@ class AdminController extends BaseController
         [
             "titulo" => [
                 "required" => 'El nombre es obligatorio'
+            ],
+            "color" => [
+                "required" => 'El color es obligatorio'
+            ],
+            "categoria" => [
+                "required" => 'La categoria es obligatoria'
             ],
             "descripcion" => [
                 "required" => 'La descripcion es obligatoria',
@@ -227,6 +244,7 @@ class AdminController extends BaseController
 
               $data = [
                 'producto_nombre' => $request->getPost('titulo'),
+                'producto_color' => $request->getPost('color'),
                 'producto_descrip' => $request->getPost('descripcion'),
                 'producto_categoria' => $categoriaSeleccionada,
                 'producto_stock' => $request->getPost('stock'),

@@ -21,6 +21,18 @@
     </div>
 
     <div class="form-group">
+        <label for="color">Color</label>
+        <?php 
+        $lista[''] = 'Seleccione color';
+        foreach($color as $row){
+            $lista[$row['id_color']]= $row ['descripcion'];
+        }
+        $sel=$producto['producto_color'];
+        echo form_dropdown ('color', $lista, $sel, 'class= "form-control"');?>
+        
+    </div>
+
+    <div class="form-group">
         <label for="stock">Stock</label>
         <?php echo form_input(['name' => 'stock', 'class' => 'form-control','value' => $producto['producto_stock']]);?>
         <p class="is-danger"><?=session('errors.stock')?></p>
@@ -48,18 +60,20 @@
     <div class="form-group"> 
         <label for="categoria">Categoria</label>
         <?php 
-        $lista['0'] = 'Seleccione categoria';
+        $list[''] = 'Seleccione categoria';
         foreach($categorias as $row){
-            $lista[$row['id_categoria']]= $row ['categoria_descrip'];
+            $list[$row['id_categoria']]= $row ['categoria_descrip'];
         }
-        $sel=$producto['producto_categoria'];
-        echo form_dropdown ('categoria', $lista, $sel, 'class= "form-control"');?>
+        $selec=$producto['producto_categoria'];
+        echo form_dropdown ('categoria', $list, $selec, 'class= "form-control"');?>
     </div>
 
     <?php echo form_hidden('id_producto', $producto['id_producto']);?>
 
-
-    <button type="submit" class='btn btn-sucess'>Modificar</button>
+    
+    <div class="form-group mt-4 mb-5  text-center ">
+            <?php echo form_submit('Modificar', 'Modificar', "class='btn btn-dark px-4'");?>
+        </div>
 
 
     </div>

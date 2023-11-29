@@ -44,21 +44,21 @@ $routes->get('registrarUsuario','UsuarioController::registrar_usuario');
 $routes->get('iniciarSesion','UsuarioController::inicio_sesion');
 $routes->get('cerrarSesion','UsuarioController::cerrar_sesion');
 
-$routes->get('verConsultas', 'UsuarioController::listar_consultas');
+$routes->get('verConsultas', 'UsuarioController::listar_consultas' );
 $routes->get('registrarConsulta', 'UsuarioController::registrar_consulta');
-$routes->get('verUsuarios', 'UsuarioController::listar_usuarios');
+$routes->get('verUsuarios', 'UsuarioController::listar_usuarios' );
 
 $routes->post('registrarUsuario', 'UsuarioController::registrar_usuario');
 $routes->post('registrarConsulta', 'UsuarioController::registrar_consulta');
 $routes->post('iniciarSesion','UsuarioController::iniciar_sesion');
 
 //productos
-$routes->get('productos','AdminController::listar_productos');
-$routes->get('inicioAdmin','AdminController::inicio_admin');
+$routes->get('productos','AdminController::listar_productos' );
+$routes->get('inicioAdmin','AdminController::inicio_admin' );
 $routes->get('agregarProducto','AdminController::agregar_producto');
-$routes->get('gestionar', 'AdminController::gestionar_productos');
-$routes->get('editar/(:num)', 'AdminController::editar_producto_vista/$1');
-$routes->get('activar/(:num)', 'AdminController::activar_producto/$1');
+$routes->get('gestionar', 'AdminController::gestionar_productos' );
+$routes->get('editar/(:num)', 'AdminController::editar_producto_vista/$1' );
+$routes->get('activar/(:num)', 'AdminController::activar_producto/$1' ); 
 $routes->get('eliminar/(:num)', 'AdminController::eliminar_producto/$1');
 
 $routes->post('actualizar', 'AdminController::editar_producto_validacion');
@@ -69,14 +69,14 @@ $routes->post('insertarProducto', 'AdminController::registrar_producto');
 $routes->get('verCarrito', 'CarritoController::ver_carrito');
 $routes->get('agregarCarrito', 'CarritoController::agregar_carrito');
 $routes->get('eliminarItem/(:any)', 'CarritoController::eliminar_item/$1');
-$routes->get('vaciarCarrito/(:any)', 'CarritoController::eliminar_item/$1');
+$routes->get('vaciarCarrito/(:any)', 'CarritoController::eliminar_item/$1 ');
 
 $routes->post('agregarCarrito', 'CarritoController::agregar_carrito');
 
 //venta
-$routes->get('ventas', 'CarritoController::guardar_venta');
-$routes->get('verVentas', 'VentaController::listar_ventas');
-$routes->get('verDetalle/(:num)', 'VentaController::listar_detalle_ventas/$1');
+$routes->get('ventas', 'CarritoController::guardar_venta', );
+$routes->get('verVentas', 'VentaController::listar_ventas', );
+$routes->get('verDetalle/(:num)', 'VentaController::listar_detalle_ventas/$1' );
 
 
 /*

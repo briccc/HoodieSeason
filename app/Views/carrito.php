@@ -16,7 +16,7 @@
 <div class="container ">
 
 <h1 class="text-center mt-4">Carrito de compras</h1>
-<a href="productos" class="btn btn-dark" role="button">Agregar producto</a>
+<a href="productos" class="btn btn-dark" role="button"><i class="bi bi-cart-plus"></i></a>
 
 
 
@@ -65,8 +65,8 @@
             <?php endforeach; ?>
             <tr>
                 <td>Total Compra:$<?php echo $total; ?></td>
-                <td><a href="<?php echo base_url('vaciarCarrito/all');?>" class="btn btn-dark">Vaciar carrito</a></td>
-                <td><a href="<?php echo base_url('ventas');?>" class="btn btn-dark" role='button'>Ordenar compra</a></td>
+                <td><a href="<?php echo base_url('vaciarCarrito/all');?>" class="btn btn-dark-disabled"><i class=" icon bi bi-cart-x"></i></a></td>
+                <td><a href="<?php echo base_url('ventas');?>" class="btn btn-dark" role='button'><i class="bi bi-cart-check"></i></a></td>
             </tr>
             
             <?php endif; ?>

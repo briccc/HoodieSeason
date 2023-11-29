@@ -62,7 +62,7 @@ public function guardar_venta(){
         }
        
         $data = array(
-            'usuario_id' => session('id'),
+            'id_usuario' => session('id'),
             'venta_fecha' => date('Y-m-d'),
             'venta_total' => $total
         );

@@ -13,12 +13,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('inicioAdmin'); ?>">Mi Tienda</a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('inicioAdmin'); ?>"><i class="bi bi-house-door"></i></a>
         </li>
  
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Productos
+          <i class="bi bi-box2-heart"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="<?php echo base_url('gestionar');?>">Gestionar Productos</a></li>
@@ -28,19 +28,19 @@
         
 
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verUsuarios'); ?>">Usuarios</a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verUsuarios'); ?>"><i class="bi bi-people"></i></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verConsultas'); ?>">Consultas</a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verConsultas'); ?>"><i class="bi bi-chat-square-text"></i></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verVentas'); ?>">Ventas</a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('verVentas'); ?>"><i class="bi bi-bag-check"></i></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page"><?php echo session('nombre');?></a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page"><i class="bi bi-person"></i> <?php echo session('nombre');?></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('cerrarSesion'); ?>">Salir</a>
+        <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mx-2" aria-current="page" href="<?php echo base_url('cerrarSesion'); ?>"><i class="bi bi-box-arrow-right"></i></a>
         </li>
         
 

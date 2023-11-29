@@ -1,11 +1,12 @@
-<div class="container">
+<div class="container vh-100">
 <div class="w-80 mx-auto  text-center">
-    <h1 class="mb-3 ">Detalles de la venta</h1>
+    <h1 class="mb-5 mt-5">Detalles de la venta</h1>
     <table id="mytable" class="table table-bordered table-striped table-hover">
         <thead>
             <tr>
-                <th>ID Venta</th>
-                <th>ID Producto</th>
+                <th>N° Venta</th>
+                <th>N° Producto</th>
+                <th>Nombre producto</th>
                 <th>Detalle Cantidad</th>
                 <th>Detalle Precio</th>
 
@@ -22,6 +23,7 @@
                 <tr>
                     <td><?= $detalle['id_venta']; ?></td>
                     <td><?= $detalle['id_producto']; ?></td>
+                    <td><?= $detalle['producto_nombre']; ?></td>
                     <td><?= $detalle['detalle_cantidad']; ?></td>
                     <td><?= $detalle['detalle_precio']; ?></td>
                     <?php $total=$total + $detalle ['detalle_precio'] * $detalle['detalle_cantidad']?>

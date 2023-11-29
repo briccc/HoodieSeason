@@ -7,7 +7,7 @@
 
     <ol>
         <li><p>Pagos con Tarjeta de Crédito / Débito ( VISA, MasterCard y American Express) 
-            <div><img src="assets/img/tarjetas.jfif" alt="visa" ></div>
+            <div class=" "><img src="assets/img/tarjetas.jfif" alt="visa" class="img-fluid "></div>
         <br>
         Una vez procesemos tu pago, nos tomaremos 24 a 48 horas para procesar tu pedido, y notificarte vía correo electrónico. En caso de que no recibas esta confirmación, te sugerimos: 
             <ul type="square">
